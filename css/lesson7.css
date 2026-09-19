@@ -5,7 +5,7 @@
   margin: 40px;
   width: 300px;
   height: 150px;
-  overflow-y: scroll;
+  overflow-y: auto;
 }
 
 .box span {
