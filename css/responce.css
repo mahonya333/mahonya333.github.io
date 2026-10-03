@@ -1,0 +1,27 @@
+* {
+  margin: 0;
+}
+
+body {
+  color: #000;
+  background: #fff;
+  font-family: Arial, sans-serif;
+  padding: 1em;
+  font-size: clamp(20px, 1.875vw, 36px);
+}
+
+@media (max-width: 768px) {
+  body {
+    font-size: clamp(16px, 2.61vw, 20px);
+  }
+}
+
+@media (min-width: 1920px) {
+  body {
+    font-size: clamp(36px, 1.875vw, 48px);
+  }
+}
+
+@media (min-width: 768px) {
+
+}
