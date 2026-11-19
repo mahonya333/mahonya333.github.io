@@ -18,10 +18,10 @@ if (randomNumber == myNumber) {
     alert('Ви вгадали число');
 
 } else if (randomNumber < myNumber) {
-    alert('Ваше число більше заданого');
+    alert('Ваше число менше заданого');
 
 } else {
-    alert('Ваше число менше заданого');
+    alert('Ваше число більше заданого');
 }
 
 let userDay = prompt('Введіть назву дня неділі');
