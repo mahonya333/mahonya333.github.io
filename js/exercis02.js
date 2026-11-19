@@ -7,7 +7,7 @@ function checkAge2(age) {
 }
 
 alert(checkAge(Number(prompt('Скільки вам років? перша функція'))));
-alert(checkAge2(Number(prompt('Скільки вам років? друга функція')))); 
+alert(checkAge2(Number(prompt('Скільки вам років? друга функція'))));
 
 function min(a, b) {
     if (a < b) {
@@ -19,7 +19,7 @@ function min(a, b) {
 }
 
 function min2(a, b) {
-    return a < b ? a: b
+    return a < b ? a : b
 }
 
 alert(min(2, 5));
@@ -34,7 +34,7 @@ function pow(x, n) {
     if (n == 1) {
         return x
     } else {
-        return x * pow(x, n-1)
+        return x * pow(x, n - 1)
     }
 }
 
@@ -43,12 +43,12 @@ alert(pow(3, 2));
 alert(pow(3, 3));
 alert(pow(1, 100));
 
-
-let ask1 = function(question, yes, no) {
-  if (confirm(question)) yes();
-  else no();
+let ask1 = function (question, yes, no) {
+    if (confirm(question)) yes();
+    else no();
 }
 
 ask1("Ви згодні?",
-  function() { alert("Ви погодились."); },
-  function() { alert("Ви скасували виконання."); })
+    () => { alert("Ви погодились."); },
+    () => { alert("Ви скасували виконання."); }
+) 
